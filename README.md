@@ -16,6 +16,19 @@ To determine whether expanding the existing customer loyalty program is viable, 
 Due to privacy concerns, Danny has provided a sample of his overall customer data. He hopes that these examples will be sufficient for you to construct fully functional SQL queries to help him find the answers he seeks.
 For this case study, Danny has shared three crucial datasets: sales, menu, and members. You can refer to the entity relationship diagram and example data below to gain a better understanding.
 
+This analysis will answer the following questions using SQL statement.
+*	What is the total amount each customer spent at the restaurant?
+*	How many days has each customer visited the restaurant?
+*	What was the first item from the menu purchased by each customer?
+*	What is the most purchased item on the menu and how many times was it purchased by all customers?
+*	Which item was the most popular for each customer?
+*	Which item was purchased first by the customer after they became a member?
+*	Which item was purchased just before the customer became a member?
+*	What is the total items and amount spent for each member before they became a member?
+*	If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+*	In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+
+
 #### The sales table had the following information
 * Customer_id: Unique Identifier of each customer
 * Order_date: Date the customer placed an order.
@@ -29,6 +42,13 @@ For this case study, Danny has shared three crucial datasets: sales, menu, and m
 #### The members table had the following information
 * Customer_id: Unique identifier of each customer
 * Join_date: Date customer became a member
+
+### Steps Applied
+* To start I created a database and named it 'Danny's_Dinner'
+* I then created the sales table, followed by the menu table and then the members table using the create table syntax
+* I finally inserted the values into each tables using using the 'insert into' syntax
+
+Finally it was time to write queries to answer the business questions...So lets go 
 
 This analysis will answer the following questions using SQL statement.
 *	What is the total amount each customer spent at the restaurant?
@@ -100,5 +120,8 @@ Based on the insights gathered from the data analysis, I would like to make the 
 
 * Finally, since Customer A’s first order was curry and both Customers A and B ordered sushi and curry before becoming members, Danny’s Diner should consider offering more specials and promotions on these menu items to attract new customers and encourage repeat business from existing customers. By leveraging these insights and tailoring marketing efforts accordingly, Danny’s Diner can enhance its customer experience and drive growth in its business.
 
-Thank you! for reading :Purple_Heart:
-Kindly connect with me on [Twitter](https://twitter.com/Eddie_Gregs?t=dF3996shVxvPJTePTtxDdw&s=09), [LinkedIn](https://www.linkedin.com/in/blessing-ekwere-857326216) and [Medium](https://medium.com/@blessingekwere)
+Thank you! for reading 😊
+
+Kindly connect with me on [Twitter](https://twitter.com/Eddie_Gregs?t=dF3996shVxvPJTePTtxDdw&s=09)
+[LinkedIn](https://www.linkedin.com/in/blessing-ekwere-857326216) 
+[Medium](https://medium.com/@blessingekwere)
