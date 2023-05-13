@@ -5,8 +5,6 @@
 Due to his deep affection for Japanese cuisine, Danny made a heartfelt decision at the start of 2021 to venture into the risky realm of entrepreneurship. He courageously opened a charming, petite restaurant called Danny's Diner, where he wholeheartedly serves his three beloved dishes: sushi, curry, and ramen.
 Presently, Danny's Diner requires my invaluable aid as an analyst to ensure its survival. Although the restaurant has managed to gather some fundamental data during its initial months of operation, they are completely clueless about leveraging this data to effectively manage their business. 
 
-*Please Note that this project is first case study of the eight weeks SQL challenge* 
-*Note also that the currency used for this analysis is assumed as it is not clearly stated*
 
 Kindly find full details of the project [here](https://8weeksqlchallenge.com/case-study-1/)
 
@@ -152,6 +150,10 @@ Based on the insights gathered from the data analysis, I would like to make the 
 * Additionally, since both Customers A and B spent a significant amount of money before becoming members, Danny’s Diner should consider offering special promotions or discounts to customers who sign up for the membership program. This could encourage more customers to become members and create a more loyal customer base.
 
 * Finally, since Customer A’s first order was curry and both Customers A and B ordered sushi and curry before becoming members, Danny’s Diner should consider offering more specials and promotions on these menu items to attract new customers and encourage repeat business from existing customers. By leveraging these insights and tailoring marketing efforts accordingly, Danny’s Diner can enhance its customer experience and drive growth in its business.
+
+*Please Note that this project is first case study of the eight weeks SQL challenge* 
+
+*Note also that the currency used for this analysis is assumed as it is not clearly stated*
 
 Thank you for reading 😊
 
