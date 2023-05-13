@@ -5,7 +5,8 @@
 Due to his deep affection for Japanese cuisine, Danny made a heartfelt decision at the start of 2021 to venture into the risky realm of entrepreneurship. He courageously opened a charming, petite restaurant called Danny's Diner, where he wholeheartedly serves his three beloved dishes: sushi, curry, and ramen.
 Presently, Danny's Diner requires my invaluable aid as an analyst to ensure its survival. Although the restaurant has managed to gather some fundamental data during its initial months of operation, they are completely clueless about leveraging this data to effectively manage their business. 
 
-*Please Note that this project is first case study of the eight weeks SQL challenge*
+*Please Note that this project is first case study of the eight weeks SQL challenge* 
+*Note also that the currency used for this analysis is assumed as it is not clearly stated*
 
 Kindly find full details of the project [here](https://8weeksqlchallenge.com/case-study-1/)
 
@@ -51,7 +52,7 @@ For this case study, Danny has shared three crucial datasets: sales, menu, and m
 * I then created the sales table, followed by the menu table and then the members table using the create table syntax
 * I finally inserted the values into each tables using using the 'insert into' syntax
 
-Finally it is time to write queries to answer the business questions...So lets go 
+Finally it is time to write queries to answer the business questions...So lets go 💪
 
 This analysis will answer the following questions using SQL statement.
 *	What is the total amount each customer spent at the restaurant?
@@ -67,7 +68,7 @@ Customer C spent $34
 
 ![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/2.png)
 
-This query shows that Customer B visited the restaurant for six days while customer A and C visited 4 and 2 days respectively
+This query shows that Customer B visited the restaurant for six days while customer A and C visited four and two days respectively
 
 *	What was the first item from the menu purchased by each customer?
 
@@ -82,7 +83,7 @@ The first purchase for customer C was ramen.
 
 ![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/4.png)
 
-This query shows that the most purchased item on the menu is ramen and it was purchased 8 times.
+This query shows that the most purchased item on the menu is ramen and it was purchased eight times.
 
 *	Which item was the most popular for each customer?
 
@@ -97,7 +98,7 @@ The most popular item for customer C was ramen and it was purchased thrice.
 
 ![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/6.png)
 
-This query shows that Customer A purchased ramen first after membership while customer B purchased sushi first after membership. This means customer C is not yet a member.
+This query shows that Customer A purchased ramen first after membership while customer B purchased sushi first after membership. 
 
 *	Which item was purchased just before the customer became a member?
 
@@ -139,6 +140,7 @@ From the analysis, we discovered a few but interesting insights that would be ce
 * bCustomer A is the 1st member of Danny’s Diner and his first order is curry.
 * The last item ordered by Customers A and B before they became members are sushi and curry.
 * Before they became members, both Customers A and B spent $25 and $40.
+* As at the time of tjis analysis customer C is not yet a member.
 
 ## RECOMMENDATION
 Based on the insights gathered from the data analysis, I would like to make the following recommendations for Danny's Diner:
