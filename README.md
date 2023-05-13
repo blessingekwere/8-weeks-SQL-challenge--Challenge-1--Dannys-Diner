@@ -109,7 +109,7 @@ Before membership customer B purchased sushi
 
 *	What is the total items and amount spent for each member before they became a member?
 
-![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/8a.png)
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/8b.png)
 
 This query shows that
 Customer B spent $40 on three items before membership.
