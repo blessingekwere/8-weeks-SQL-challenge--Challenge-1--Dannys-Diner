@@ -1,11 +1,12 @@
 # Case Study #1 - Danny's Diner
 
 ## Introduction
-
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/Introductory%20Pics.png)
 Due to his deep affection for Japanese cuisine, Danny made a heartfelt decision at the start of 2021 to venture into the risky realm of entrepreneurship. He courageously opened a charming, petite restaurant called Danny's Diner, where he wholeheartedly serves his three beloved dishes: sushi, curry, and ramen.
 Presently, Danny's Diner requires my invaluable aid as an analyst to ensure its survival. Although the restaurant has managed to gather some fundamental data during its initial months of operation, they are completely clueless about leveraging this data to effectively manage their business. 
 
-*Please Note that this project is first case study of the eight weeks SQL challenge** 
+*Please Note that this project is first case study of the eight weeks SQL challenge*
+
 Kindly find full details of the project [here](https://8weeksqlchallenge.com/case-study-1/)
 
 ## Problem Statement
@@ -14,7 +15,6 @@ Danny is interested in using the data to address a few straightforward inquiries
 To determine whether expanding the existing customer loyalty program is viable, Danny intends to utilize these insights. Additionally, he requires assistance in creating basic datasets that his team can easily examine without relying on SQL.
 
 Due to privacy concerns, Danny has provided a sample of his overall customer data. He hopes that these examples will be sufficient for you to construct fully functional SQL queries to help him find the answers he seeks.
-For this case study, Danny has shared three crucial datasets: sales, menu, and members. You can refer to the entity relationship diagram and example data below to gain a better understanding.
 
 This analysis will answer the following questions using SQL statement.
 *	What is the total amount each customer spent at the restaurant?
@@ -28,6 +28,9 @@ This analysis will answer the following questions using SQL statement.
 *	If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 *	In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
+For this case study, Danny has shared three crucial datasets: sales, menu, and members. You can refer to the entity relationship diagram and example data below to gain a better understanding.
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/Screenshot%20(87).png)
 
 #### The sales table had the following information
 * Customer_id: Unique Identifier of each customer
@@ -48,10 +51,12 @@ This analysis will answer the following questions using SQL statement.
 * I then created the sales table, followed by the menu table and then the members table using the create table syntax
 * I finally inserted the values into each tables using using the 'insert into' syntax
 
-Finally it was time to write queries to answer the business questions...So lets go 
+Finally it is time to write queries to answer the business questions...So lets go 
 
 This analysis will answer the following questions using SQL statement.
 *	What is the total amount each customer spent at the restaurant?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/1.png)
 
 This query shows that 
 Customer A spent $76
@@ -59,44 +64,70 @@ Customer B spent $74
 Customer C spent $34
 
 *	How many days has each customer visited the restaurant?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/2.png)
+
 This query shows that Customer B visited the restaurant for six days while customer A and C visited 4 and 2 days respectively
 
 *	What was the first item from the menu purchased by each customer?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/3.png)
+
 This query shows that
 The first purchase for customer A was sushi and curry.
 The first purchase for customer B was curry.
 The first purchase for customer C was ramen.
 
 *	What is the most purchased item on the menu and how many times was it purchased by all customers?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/4.png)
+
 This query shows that the most purchased item on the menu is ramen and it was purchased 8 times.
 
 *	Which item was the most popular for each customer?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/5.png)
+
 This query shows that 
 The most popular item for customer A was ramen which was purchased 8 times.
 The most popular item for customer B was sushi, curry and ramen which was purchased twice each. 
 The most popular item for customer C was ramen and it was purchased thrice.
 
 *	Which item was purchased first by the customer after they became a member?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/6.png)
+
 This query shows that Customer A purchased ramen first after membership while customer B purchased sushi first after membership. This means customer C is not yet a member.
 
 *	Which item was purchased just before the customer became a member?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/7.png)
+
 This query shows that 
 Before membership customer A purchased curry and sushi 
 Before membership customer B purchased sushi
 
 *	What is the total items and amount spent for each member before they became a member?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/8.png)
+
 This query shows that
 Customer B spent $40 on three items before membership.
 Customer A spent $25 on two items before membership.
 
 
 *	If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/9.png)
+This query shows that
 Customer A will have 860 points.
 Customer B will have 940 points.
 Customer C will have 360 points.
 
 *	In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
-Customer A has 1020 points and customer B has 320 points
+
+![](https://github.com/blessingekwere/8-weeks-SQL-challenge--Challenge-1--Dannys-Diner/blob/main/10.png)
+This query shows that Customer A has 1020 points and customer B has 320 points
 
 
 ## INSIGHTS
