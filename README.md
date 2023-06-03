@@ -151,7 +151,7 @@ Based on the insights gathered from the data analysis, I would like to make the 
 
 * Finally, since Customer A’s first order was curry and both Customers A and B ordered sushi and curry before becoming members, Danny’s Diner should consider offering more specials and promotions on these menu items to attract new customers and encourage repeat business from existing customers. By leveraging these insights and tailoring marketing efforts accordingly, Danny’s Diner can enhance its customer experience and drive growth in its business.
 
-*Please Note that this project is first case study of the eight weeks SQL challenge* 
+*Please Note that this project is first project of the eight weeks of SQL challenge*. 
 
 *Note also that the currency used for this analysis is assumed as it is not clearly stated*
 
